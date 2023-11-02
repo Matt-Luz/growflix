@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+}
+
+/* Page Home */
+
+#header-page-one {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/img/banner-initial.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btn-danger{
+    background-color: #e50914;
+    height: 80px;
+    width: 180px;
+}
+
+.btn-danger:hover {
+    background-color: #901017;
+}
+
+#info-2, #info-3, #info-4 {
+    font-size: 40px;
+}
+
+.accordion-button {
+    background-color: #303030 !important;
+    color: #ffffff !important;
+    font-size: 1.5rem;
+}
+
+.accordion-item {
+    border: 5px solid black;
+}
+  
+.accordion-button::after {
+    background-image: url(../../assets/img/add.svg) !important;
+}
+
+.accordion-flush .accordion-collapse {
+    border-width: 0;
+}
+
+/* Page Two - Videos */
+
+#header-page-two {
+    background-image: url(../../assets/img/growcast-01.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
